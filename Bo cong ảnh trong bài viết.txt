@@ -1,0 +1,16 @@
+
+
+Tìm code: .post-body img
+sửa thành: .post-body img{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;height:auto!important}
+
+Hoặc chỉ sửa thế này: .post-body img{border-radius:8px;height:auto!important}
+
+
+Giãn đều chữ trong bài viết.
+Tìm đoạn code 748 sau:
+
+Thêm text-align:justify; vào ngay đầu luôn. 
+#post-body{text-align:justify;position:relative;float:left;width:100%;font-family:var(--text-font);font-size:$(itempost.content.size);color:var(--post-text-color);line-height:1.6em;padding:0;margin:0}
+
+
+Sửa font chữ Arial vào Thiết lập chứ ko sửa code CSS.
